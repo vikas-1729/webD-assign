@@ -1,0 +1,133 @@
+body{
+	margin: 4;
+}
+/*--- Header ---*/
+
+body{
+	background-color: #283F51;
+	margin:10px;
+}
+#header-box{
+	padding: 4px;
+	height: 60px;
+	border: 2px solid grey;
+}
+#header-box i{
+	color: white;
+	font-size: 50px;
+	margin-top: 2px;
+}
+#heading {
+	padding: 4px;
+	display: inline;
+	text-decoration: none;
+	font-size: 20px;
+}
+#heading a{
+	color: currentColor;
+	text-decoration: none;
+}
+
+ul{
+	margin-left: 20px;
+	list-style-type:  none;
+	display: inline;
+	font-size: 20px;
+}
+li {
+	margin:4px;
+	padding: 8px;
+	display: inline;
+
+}
+li a{
+	color: currentColor;
+	text-decoration: none;
+}
+li a:hover {
+  background-color: white;
+}
+#search{
+	padding: 4px;
+	float:right;
+	width: 600px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#search img{
+	border-radius: 50%;
+	width: 70px;
+	height: 60px;
+
+}
+#search i{
+	font-size: 40px;
+	color: white;
+	padding: : 4px;
+
+}
+input{
+	margin-top: 4px;
+	padding: 8px;
+	width: 220px;
+	height: 30px;
+	background-color: #2B465B;
+	border: none;
+	color: white;
+}
+
+/*----Header---*/
+main{
+	margin: 2px;
+	width:70%;
+	height: 550px;
+	border: 2px solid red;
+}
+#playlist-image img{
+	padding: 2px;
+	width: inherit;
+	height: 500px;
+}
+#description{
+	position: relative;
+
+	border: 2px solid aqua;
+}
+#name{
+	position: absolute;
+	left:550px;
+	bottom: 420px;
+	font-size: 4em;
+	font-weight: 800px;
+	font-family: cursive;
+	padding: 4px;
+}
+#desc{
+	position: absolute;
+	left:550px;
+	bottom: 320px;
+	padding: 2px;
+	margin-top: 4px;
+	font-family: serif;
+	color: grey;
+}
+#play-button{
+	border:2px solid black;
+	border-radius: 50%;
+	position: absolute;
+	left: 590px;
+	bottom: 250px;
+	padding: 4px;
+}
+#add-playlist{
+	border:2px solid black;
+	border-radius: 50%;
+	position: absolute;
+	left: 630px;
+	bottom: 250px;
+	padding: 4px;
+
+}
+

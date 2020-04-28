@@ -1,0 +1,259 @@
+/*nav*/
+body{
+	padding: 0;
+	margin: 0;
+}
+nav{
+	height:10%;
+	width: 100%;
+	display: flex;
+	border:2px solid-black;
+}
+#logo{
+	
+	height: auto;
+	width: 10%;
+	background-image: url(../assest/images/logo2.jpg);
+	background-size: contain;
+    background-position: center;
+    background-repeat:no-repeat;
+    
+} 
+.horizontal-list{
+	width: 75%;
+	display: flex;
+	list-style: none;
+	flex-direction: row;
+	justify-content: space-between;
+	
+
+}
+.normal-text{
+	padding: 1rem;
+	font-size: 1.2rem;
+	font-weight: 100;
+}
+form{
+	height: 50px;
+    width: 300px;
+    border-radius:10px;
+	padding-left: 1%;
+	border: 2px solid red;
+}
+
+input[type="text"]{
+	height: 90%;
+	width: 85%;
+	font-size: 1.1rem;
+	border:0px;
+}
+input[type="text"]::placeholder{
+	padding: 1rem;
+	font-size: 1.2rem;
+	font-weight: 100;
+
+}
+.nav-end{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin:auto;
+}
+.nav-end::after{
+	content:'image';
+	display: inline-block;
+	margin-left:12px;
+
+}
+/*main section*/
+main{
+	width: 60%;
+	padding: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	min-height: 500px;
+	justify-content: space-between;
+
+}
+header{
+	position: relative;
+	width: 100%;
+	height:250px;
+	display: flex;
+	padding: 2rem 0rem;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+#img-1{
+	height:100%;
+	width: 50%;
+	background-image: url(../assest/images/header-image1.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	
+}
+#img-2{
+	height:100%;
+	width: 50%;
+	background-image: url(../assest/images/header-image3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	
+}
+
+#img-3{
+	left: 23%;
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    top:0%;
+    background-image: url(../assest/images/header-image2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 3px 4px white;
+    z-index: 2;
+}
+
+/*for all section*/
+section{
+	margin-top: 2rem;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	min-height: 100px;
+}
+/* all section need row flex dirction*/ 
+section > div {
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	min-height: 100px;
+	padding: 0px 1px;
+	border:2px solid black;
+	justify-content: space-between;
+	
+}
+/*latet release div property*/
+#latest-release > div{
+	width: 100%;
+	height:250px;
+}
+.latest-release-content{
+	width: 49%;
+	height:49%; 
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+.latest-release-content> .left{
+	width: 50%;
+	height:100%;
+	background-image: url(../assest/images/latest-release-pic.jpg);
+	background-size: cover;
+}
+.latest-release-content> .left{
+	width: 50%;
+	height:100%;
+	background-image: url(../assest/images/latest-release-pic1.jpg);
+	background-size: cover;
+}
+.latest-release-content> .right{
+	width: 50%;
+	height:100%
+
+	
+}
+
+/*all span in latest release right part*/
+.latest-release-content > .right> span{
+	display: inline-block;
+	height: 100%;
+	padding:0px 2px; 
+
+}
+/*make left*/
+.latest-release-content > .right> .left{
+	float: left;
+	margin-top: 1.2rem;
+
+
+}
+/*make right*/
+.latest-release-content > .right> .right{
+	float: right;
+
+}
+/* align in center*/
+.latest-release-content > .right> .right > i{
+	margin-left: .3rem;
+
+}
+/* section heading  name */
+section .heading-name{
+	font-size: 1.2rem;
+	font-weight: 100;
+	word-spacing: .2rem;
+	line-height: 1.1rem;
+	margin-bottom: 1.2rem;
+}
+#popular-artist > div{
+	width: 100%;
+	height:300px; 
+}
+.popular-artist-content{
+	height:100%;
+	width: 24%;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.img{
+	height: 90%;
+	width: 100%;
+	border-radius:48%;
+	background-size: cover;
+	box-shadow: 1px 1px 1px 1px white;
+}
+#img1{
+	background-image: url(../assest/images/zayn-malik.jpg);
+	
+}
+#img2{
+	background-image: url(../assest/images/ed-shreen.jpg);
+	
+}
+#img3{
+	background-image: url(../assest/images/cold-play.jpg);
+	background-position: center;
+	
+}
+#img4{
+	background-image: url(../assest/images/Bruno-Mars-real.jpg);
+	
+}
+.text-center{
+	text-align: center;
+}
+.artist-name{
+	font-size: 1.1rem;
+    font-family: sans-serif;
+    word-spacing: .8rem;
+}
+/*song type*/
+#song-type > div{
+	height:250px;
+	width: 100%;
+}
+.img-contain{
+	height:98%;
+	background-size: contain;
+	border:2px solid black;
+
+}
+.wd-20{
+	width: 19%;
+
+}
