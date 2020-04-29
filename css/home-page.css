@@ -1,6 +1,6 @@
 /*nav*/
 body{/* giving initial scale to padding background-color and text -color*/
-	padding: 0;
+	padding:0rem;
 	margin: 0;
 	position: relative;
 	background-color: #0c1027;
@@ -555,5 +555,9 @@ display: none;
 	background-image: url(../assest/images/sec-4/img4.jpg)
 }
 .white{
+	color:white;
+}
+.no-decoration{
+	text-decoration: none;
 	color:white;
 }

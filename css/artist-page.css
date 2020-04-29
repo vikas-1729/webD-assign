@@ -1,0 +1,92 @@
+/* here u used to give moe margin*/
+.main-content{
+	padding: 0rem 5rem;
+    display: flex;
+    flex-direction: row;
+
+}
+main{
+	min-height:700px;
+}
+main > div{
+	height:100px;
+	padding:1.2rem;
+}
+.wd-100{
+	width: 100%;
+}
+header{
+	height: 300px;
+}
+.ht-100{
+	height:100%;
+}
+.wd-40{
+	width: 40%;
+
+}
+.wd-60{
+	width: 60%;
+}
+#latest-release-artist-sec1 > .left{
+	background-image: url(../assest/images/header-image-artist.jpg);
+}
+.ht-25{
+	height:25%;
+}
+.wd-15{
+	width: 15% !important;
+}
+.wd-85{
+	width: 85% !important;
+}
+/* in this page artist is given some more spac padding*/
+aside{
+	padding-top: 1.5rem;
+	margin-right: 0px;
+	padding-left: 2.5rem;
+}
+aside > div{
+	display: flex;
+	flex-direction: column;
+	padding-top: 2rem;
+	height:100px;
+}
+.normal-text-artist{
+	font-size: 1rem;
+	font-weight: 100;
+	margin-top: .5rem;
+}
+.float-right{
+	float: right;
+}
+
+#latest-release-artist-sec3 > .left{
+	background-image: url(../assest/images/imagine-dragon.jpg);
+	background-position: center;
+}
+#latest-release-artist-sec2 > .left{
+	background-image: url(../assest/images/cold-play-artist-sec2.png);
+}
+.mt-25{
+	margin-top: 2.5rem;
+
+}
+.mb-25{
+	margin-bottom:  2.5rem;
+}
+
+.bg-color{
+	background-color: #12193e;
+}
+.pd-0{
+	padding-left: 0px;
+}
+#follow-button{
+	width: 130px;
+    height: 40px;
+    background-image: linear-gradient(to right ,#4d2ab7,#ae43d8);
+    color: white;
+    font-size: 1.2rem;
+	background-color: violent;
+}
