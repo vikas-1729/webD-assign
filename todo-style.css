@@ -1,0 +1,57 @@
+body{
+	margin:0px;
+	padding: 0px;
+}
+main{
+	margin: auto;
+    height: auto;
+    width: 50%;
+    border: 2px solid black;
+    padding: 1.5rem 0rem 0rem 1.5rem;
+}
+
+.input-area{
+	width: 100%;
+    height: 80px;
+    margin: auto;
+}
+input[type="text"]{
+	height: 90%;
+    width: 90%;
+    outline-style: none;
+    font-size: 1.2rem;
+    word-spacing: .5rem;
+    padding-left: 1rem;
+}
+ul{
+	font-size: 1.2rem;
+    list-style: circle;
+    padding-left: 1.5rem;
+    margin-top: 0px;
+}
+.list-item{
+	font-size: 1.2rem;
+    width: 93%;
+    margin-bottom: .5rem;
+}
+.text-center{
+	
+}
+.fl-right{
+	float: right;
+}
+.remove-button{
+
+}
+.work-status{
+	
+}
+.list-item{
+	margin-bottom: .5rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.txt-center{
+	text-align: center;
+}
