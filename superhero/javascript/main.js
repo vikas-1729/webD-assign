@@ -115,6 +115,9 @@ function start(){
 					});
 					$('#'+id1).click(()=>{//clciking on add favourite
 						let favouriteHeroes=JSON.parse(localStorage.getItem('allFavouriteHeroes'));
+						if(favouriteHeroes==null){//strating favourties heros is null
+							favouriteHeroes=new Array();
+						}
 						let add=true;//this add will be false if item is already added
 						
 						{
