@@ -1,0 +1,48 @@
+body{
+	padding: 0;
+	margin: 0;
+	padding-top: 10px;
+
+}
+#main-container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	height:auto;
+	padding:50px;
+	justify-content: space-around;
+}
+.image{
+	height:200px;
+	width: 40%;
+	object-fit: cover;
+
+
+}
+.divElement{
+	height:200px;
+	width:40%;
+
+}
+.backgroundProperty{
+	background-position: center;
+	background-size: contain;
+
+}
+.superheroDiv{
+	height: 300px;
+	width:300px;
+	background-color:#454d55;
+
+}
+.text-center{
+	text-align: center;
+}
+.heading{
+	display: inline-block;
+	margin-left:48px;
+}
+.homeButton{
+	float: right;
+	margin-right:60px;
+}

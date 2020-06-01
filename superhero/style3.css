@@ -1,0 +1,29 @@
+body{
+	padding-top: 20px;
+}
+
+#main-container{
+padding:50px;
+
+
+}
+.table{
+	width:80%;
+	height:auto;
+	margin:auto;
+}
+.favouriteImage{
+	height:100px;
+	width: 100px;
+	object-fit: contain;
+	object-position: center;
+}
+.header-line{
+	display: inline-block;
+	margin-left: 30px;
+
+}
+.b1{
+	float: right;
+	margin-right: 60px;
+}

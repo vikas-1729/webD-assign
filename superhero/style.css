@@ -1,0 +1,60 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+#main-container{
+	height:auto;
+	padding:50px;
+}
+.form{
+	width: 50%;
+	margin: auto;
+	height:auto;
+	display: inline-block;
+
+
+}
+#submitButton{
+	float:right;
+	margin-top: 10px;
+
+}
+#listSuggestion{
+	display: flex;
+	flex-direction: column;
+	padding: 0px;
+	margin-top: -35px;
+
+}
+.list-item{
+	list-style-type: none;
+	width: 43%;
+	
+	font-size: 1.2rem;
+	border:1px solid black;
+	border-radius:10px;
+	font-weight: bolder;
+
+}
+.list-item:hover{
+	background-color: cyan;
+	cursor: pointer;
+
+}
+.searchArrayList{
+	width: 60%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+#favouriteHeroesBtn{
+	margin-left:30%; 
+}
+#goToSuperhero{
+	padding: 0px;
+}
+h1{
+	text-align: center;
+	color:blue;
+
+}
