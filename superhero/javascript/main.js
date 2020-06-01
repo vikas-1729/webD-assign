@@ -116,6 +116,7 @@ function start(){
 					$('#'+id1).click(()=>{//clciking on add favourite
 						let favouriteHeroes=JSON.parse(localStorage.getItem('allFavouriteHeroes'));
 						let add=true;//this add will be false if item is already added
+						console.log("ok i am in");
 						{
 						let array=JSON.parse(localStorage.getItem('allFavouriteHeroes'));
 						for(let j of array){
@@ -126,6 +127,7 @@ function start(){
 						}
 
 					}
+						console.log("add",add);
 							if(add==true){
 							let obj=new Object();
 							obj['id']=i.id;
