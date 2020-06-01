@@ -119,7 +119,7 @@ function start(){
 						
 						{
 						let array=JSON.parse(localStorage.getItem('allFavouriteHeroes'));
-						if(array.length>0){
+						if(array!=null&&array.length>0){
 							for(let j of array){
 							if(j.id===i.id){
 								add=false;
